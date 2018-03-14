@@ -8,12 +8,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.0
-  qrcode_reader: ^0.3.2
+  qrcode_reader: "^0.3.2"
   camera: "^0.1.0"
   path_provider: "^0.4.0"
   image_picker: "^0.3.0"
   http_client: "^0.3.1"
-  crypto: "^2.0.2+1"
   path: "^1.5.1"
 
 dev_dependencies:

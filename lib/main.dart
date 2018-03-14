@@ -39,11 +39,11 @@ class _BasePageState extends State<BasePage> {
   String server;
   final GlobalKey<ScaffoldState> _scaffoldstate = new GlobalKey<ScaffoldState>();
 
-
   @override
   initState() {
     super.initState();
   }
+
   void showSnackBar(String value) {
     _scaffoldstate.currentState.showSnackBar(new SnackBar(
       content: new Text(value),
@@ -77,7 +77,7 @@ class _BasePageState extends State<BasePage> {
   Widget build(BuildContext context) {
     Widget body = new Center(
       child: new RaisedButton(
-        child: const Text('Connect to Server'),
+        child: const Text('Connect to a new Server'),
         color: Theme.of(context).accentColor,
         elevation: 4.0,
         splashColor: Colors.blueGrey,
@@ -103,18 +103,21 @@ class _BasePageState extends State<BasePage> {
             ),
     );
   }
+  
   Future delay() async{
-    return new Future.delayed(new Duration(milliseconds: 700));
+    return new Future.delayed(new Duration(milliseconds: 500));
   }
+
   void pickImage() async{
     if(server!=null) {
       imageFile = await ImagePicker.pickImage();
       await delay();
-      await sendHTTPFile(server, imageFile);
+      sendHTTPFile(server, imageFile);
     } else {
       showSnackBar("No server chosen!");
     }
   }
+  
   void scanQR() async{
     var setServer = true;
     if(server!=null){
