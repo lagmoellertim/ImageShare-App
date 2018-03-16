@@ -29,7 +29,7 @@ So naturally, I also published ImageShare under the MIT License at my [public re
 
 The ImageShare Mobile App requires [Flutter](https://flutter.io/) to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and devDependencies and start the app.
 
 
 ### Plugins
