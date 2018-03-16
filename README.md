@@ -12,6 +12,10 @@ With ImageShare, you can transfer photos from your mobile device wirelessly to y
   - You can run the ImageShare Desktop App on e.g. an interactive whiteboard to make full use out of the included features such as the integrated touch compatibility
   - Because of copy & paste functionality you can just move the received image to any picture or document editor of your liking
 
+### Desktop App
+  - If you want to use this software, you may want to check out the corresponding desktop app to show your images on the desktop
+  - The desktop app can be found at this repository: [lagmoellertim/ImageShare-App](https://github.com/lagmoellertim/ImageShare-DesktopApp)
+
 ### Tech
 
 ImageShare uses a number of open source projects to work properly:
@@ -32,11 +36,11 @@ Install the dependencies and devDependencies and start the server.
 
 ImageShare is using numerous open-source Flutter and Dart plugins, which are listed below.
 
-| Plugin | README |
+| Plugin | GitHub Repository |
 | ------ | ------ |
-| Image Picker | [image_picker/README.md](https://github.com/flutter/plugins/blob/master/packages/image_picker/README.md) |
-| QR-Code Reader | [flutter_qrcode_reader/README.md](https://github.com/villela/flutter_qrcode_reader/blob/master/README.md) |
-| HTTP Client | [http_client/README.md](https://github.com/isoos/http_client/blob/master/README.md) |
+| Image Picker | [flutter/plugins](https://github.com/flutter/plugins) |
+| QR-Code Reader | [villela/flutter_qrcode_reader](https://github.com/villela/flutter_qrcode_reader) |
+| HTTP Client | [isoos/http_client](https://github.com/isoos/http_client) |
 
 ### Todos
 
